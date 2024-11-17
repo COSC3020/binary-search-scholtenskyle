@@ -9,7 +9,7 @@ function binarySearch(list, element) {
         if (element <= list[listCenter]){
             listEnd = listCenter - 1;
         }
-        if (list[listMid] == element){
+        if (list[listCenter] == element){
             lowNum = listCenter;
         }
         else if (element > list[listCenter]){
